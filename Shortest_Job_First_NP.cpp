@@ -14,7 +14,7 @@ int main(){
     v.push_back({b,a});
     }
     sort(v.begin(),v.end());
-    ct[0]=0;
+    ct[0]=v[0].second;
     for(int i=1;i<=n;i++){
 
     ct[i]=ct[i-1]+v[i-1].first;
